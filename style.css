@@ -6,7 +6,7 @@
 
 body {
    background-color: royalblue;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Courgette', cursive;
    position: relative;
 }
 
@@ -17,7 +17,7 @@ fieldset#field {
    border: 2px solid #f0f0f0;
 }
 
-legend#heading {
+fieldset#field legend#heading {
    text-transform: uppercase;
    text-align: center;
    font-size: 24px;
@@ -30,13 +30,13 @@ span.flames {
    text-transform: uppercase;
 }
 
-div.container {
+fieldset#field  div.container {
    display: flex;
    width: 100%;
    height: 100%;
 }
 
-div#readme {
+fieldset#field div.container div#readme {
    width: 45%;
    height: 84%;
    border: 2px solid white;
@@ -45,7 +45,7 @@ div#readme {
    margin-left: 25px;
 }
 
-div#readme h4 {
+fieldset#field div.container div#readme h4 {
    text-transform: capitalize;
    width: 120px;
    text-align: center;
@@ -57,7 +57,7 @@ div#readme h4 {
    border-bottom: 1px solid #fff;
 }
 
-div#readme p {
+fieldset#field div.container div#readme p {
    letter-spacing: 1px;
    text-transform: capitalize;
    text-align: center;
@@ -66,7 +66,7 @@ div#readme p {
    font-size: 18px;
 }
 
-div#gaming {
+fieldset#field div.container div#gaming {
    width: 45%;
    height: 84%;
    margin-left: 20px;
@@ -74,7 +74,7 @@ div#gaming {
    border: 2px solid #fff;
 }
 
-div#gaming h4 {
+fieldset#field div.container  div#gaming h4 {
    text-transform: capitalize;
    font-size: 18px;
    width: 274px;
@@ -87,7 +87,7 @@ div#gaming h4 {
    margin-left: 4px;
 }
 
-div#gaming input.input {
+fieldset#field div.container div#gaming input.input {
    width: 250px;
    height: 44px;
    border-radius: 6px;
@@ -100,14 +100,14 @@ div#gaming input.input {
    border: none;
 }
 
-div#gaming p {
+fieldset#field div.container div#gaming p {
    text-transform: uppercase;
    text-align: center;
    margin-top: 10px;
    color: #fff;
 }
 
-button#submit {
+fieldset#field div.container div#gaming button#submit {
    padding: 14px 20px;
    border: 2px solid hotpink;
    outline: none;
@@ -120,13 +120,13 @@ button#submit {
    margin-top: 12px;
 }
 
-button#submit:hover {
+fieldset#field div.container div#gaming button#submit:hover {
    color: #fff;
    background-color: hotpink;
    border: 2px solid #fff;
 }
 
-button#submit:active {
+fieldset#field div.container div#gaming button#submit:active {
    background-color: royalblue;
 }
 

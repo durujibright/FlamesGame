@@ -83,7 +83,7 @@ function validEntry() {
           // console.log(crushFilter);
           // console.log(result);
      } else {
-    alert ('Both details must be filled to play they game')
+    alert ('BOTH USER AND CRUSH DETAILS MUST BE FILLED !!!');
   }
 }
 // }
